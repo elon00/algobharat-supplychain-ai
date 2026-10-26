@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "algobharat-supplychain-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "Algorand",
+        "PROJECT_TICKER": "ABSUPPLY"
+      },
+      "tools": [
+        {
+          "name": "verify_absupply_invariants",
+          "description": "Verifies deterministic invariants for AlgoBharat Supply Chain AI on Algorand."
+        },
+        {
+          "name": "execute_absupply_action",
+          "description": "Executes authenticated Supply Chain state transition."
+        }
+      ]
+    }
+  }
+}

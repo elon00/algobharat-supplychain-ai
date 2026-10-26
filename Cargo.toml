@@ -1,0 +1,9 @@
+[package]
+name = "algobharat-supplychain-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "Tamper-proof agricultural and pharma tracking ASA"
+license = "MIT"
+
+[dependencies]
